@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: #222222;
+}
+
+header {
+    height: 100px;
+    background-image: linear-gradient(rgba(26, 26, 26, 0.623),rgba(0, 0, 0, 0.5)) , url(https://img.freepik.com/fotos-gratis/lancheira-de-frango-bulgur-microgreens-tomate-e-frutas-comida-saudavel-fitness-leve-embora-lancheira-vista-do-topo_2829-19657.jpg?w=1380&t=st=1660339017~exp=1660339617~hmac=20c378a94fc1c12c271eab01615697e8bcefc21e8ac3ce6d44d00ec11557e4e6);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding: 20px;
+}
+
+.logo {
+   height: 110px;
+   padding-left: 320px;
+   position: absolute;
+   float: top;
+   top: 10px;
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 25px;
+
+}
+
+
+
+nav {
+    background-color: #FFF5F2;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.content{
+    min-height: 400px;
+}
+
+footer{
+    background-image: linear-gradient(rgba(26, 26, 26, 0.945),rgba(27, 27, 27, 0.897)) , url(https://img.freepik.com/fotos-gratis/arranjo-de-lancheiras-de-comida-plana-lay_23-2149060382.jpg?w=1380&t=st=1660351400~exp=1660352000~hmac=5d0fd09dc597cd6eb88e38be02982a65fba84021b1f1094ebdd96acfaa66e2f0);
+    background-position: center;
+    background-size: cover;
+    min-height: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    max-width: 800px;
+    display: flex;
+    margin: auto;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+.footer-details{
+    text-align: left;
+    padding-left: 60px;
+}
